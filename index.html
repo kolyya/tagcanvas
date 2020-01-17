@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/jquery.svg3dtagcloud.js"></script>
@@ -16,7 +17,7 @@
 </head>
 <body>
 
-<div id='tagcloud'></div>
+<div id='tagcloud' style="height:100vw; height:100vh;"></div>
 
 <script>
 
@@ -49,8 +50,7 @@
         {label: 'Взрослый', value: 1,},
     ];
 
-    var entries = [
-    ];
+    var entries = [];
 
     for (var i = 0; i < list.length; i++) {
         var item = list[i];
