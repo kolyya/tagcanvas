@@ -54,7 +54,7 @@
 
     for (var i = 0; i < list.length; i++) {
         var item = list[i];
-        entries.push({url: '#', target: '_top', label: item.label, fontSize: 40 * item.value});
+        entries.push({url: '#', target: '_top', label: item.label, fontSize: 45 * item.value});
     }
 
     var settings = {
@@ -62,7 +62,7 @@
         entries: entries,
         width: '100%',
         height: '100%',
-        radius: '65%',
+        radius: '75%',
         radiusMin: 75,
         bgDraw: true,
         bgColor: '#111',
@@ -70,9 +70,9 @@
         opacityOut: 0.05,
         opacitySpeed: 6,
         fov: 800,
-        speed: 1,
+        speed: 0.1,
         fontFamily: 'Oswald, Arial, sans-serif',
-        fontSize: '15',
+        fontSize: '45',
         fontColor: '#fff',
         fontWeight: 'normal',//bold
         fontStyle: 'normal',//italic
